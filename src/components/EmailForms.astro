@@ -1,19 +1,22 @@
 ---
 import { Mail, Form, Mailform, forms_grid_class } from '@hostfurl/astro-mailform'
-const { basic = true, extra = false } = Astro.props;
+// interface Props {
+//   formid?: number;
+//   basic?: boolean;
+//   extra?:boolean;
+// }
+let { formid=0, basic = true, extra = false } = Astro.props;
 ---
-
-
 
 <div class={forms_grid_class}>
   { basic && 
-    <Mail><Form title="SEND MESSAGE TO HOSTFURL" recipient="1" required="name email message" /></Mail>
+    <Mail id={formid}><Form id={formid++} title="SEND MESSAGE" recipient="1" required="name email message" /></Mail>
     <div>
-      <Mail><Form title="SUBSCRIBE TO NEWSLETTER" recipient="1" required="name email" /></Mail>
-      <Mail><Form title="UNSUBSCRIBE FROM NEWSLETTER" recipient="1" required="email" /></Mail>
+      <Mail id={formid}><Form id={formid++} title="SUBSCRIBE TO NEWSLETTER" recipient="1" required="name email" /></Mail>
+      <Mail id={formid}><Form id={formid++} title="UNSUBSCRIBE FROM NEWSLETTER" recipient="1" required="email" /></Mail>
     </div>
   }
   { extra && 
-    <Mailform title="I/WE, CLUB MEMBER(S) WISH TO ATTEND EVENT ... ON ..." required="email name" />
+    <Mailform id={formid++} title="I/WE, CLUB MEMBER(S) WISH TO ATTEND EVENT ... ON ..." required="email name" />
   }
 </div>
