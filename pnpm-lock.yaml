@@ -10,7 +10,7 @@ dependencies:
     version: 5.1.0(astro@4.1.2)(tailwindcss@3.4.1)
   '@hostfurl/astro-mailform':
     specifier: github:hostfurl/astro-mailform
-    version: git@github.com+hostfurl/astro-mailform/b85958b84ee28702eed491091366b198206d9505(@astrojs/mdx@2.0.4)(@astrojs/tailwind@5.1.0)(@tailwindcss/forms@0.5.7)(@tailwindcss/typography@0.5.10)(astro@4.1.2)(autoprefixer@10.4.16)(postcss@8.4.33)(tailwindcss@3.4.1)(typescript@5.3.3)
+    version: git@github.com+hostfurl/astro-mailform/599678bd2fdeeb898067344f830a6eed7b0307ec(@astrojs/mdx@2.0.4)(@astrojs/tailwind@5.1.0)(@tailwindcss/forms@0.5.7)(@tailwindcss/typography@0.5.10)(astro@4.1.2)(autoprefixer@10.4.16)(postcss@8.4.33)(tailwindcss@3.4.1)(typescript@5.3.3)
   astro:
     specifier: ^4.1.2
     version: 4.1.2(typescript@5.3.3)
@@ -4240,11 +4240,11 @@ packages:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
 
-  git@github.com+hostfurl/astro-mailform/b85958b84ee28702eed491091366b198206d9505(@astrojs/mdx@2.0.4)(@astrojs/tailwind@5.1.0)(@tailwindcss/forms@0.5.7)(@tailwindcss/typography@0.5.10)(astro@4.1.2)(autoprefixer@10.4.16)(postcss@8.4.33)(tailwindcss@3.4.1)(typescript@5.3.3):
-    resolution: {commit: b85958b84ee28702eed491091366b198206d9505, repo: git@github.com:hostfurl/astro-mailform.git, type: git}
-    id: git@github.com+hostfurl/astro-mailform/b85958b84ee28702eed491091366b198206d9505
+  git@github.com+hostfurl/astro-mailform/599678bd2fdeeb898067344f830a6eed7b0307ec(@astrojs/mdx@2.0.4)(@astrojs/tailwind@5.1.0)(@tailwindcss/forms@0.5.7)(@tailwindcss/typography@0.5.10)(astro@4.1.2)(autoprefixer@10.4.16)(postcss@8.4.33)(tailwindcss@3.4.1)(typescript@5.3.3):
+    resolution: {commit: 599678bd2fdeeb898067344f830a6eed7b0307ec, repo: git@github.com:hostfurl/astro-mailform.git, type: git}
+    id: git@github.com+hostfurl/astro-mailform/599678bd2fdeeb898067344f830a6eed7b0307ec
     name: '@hostfurl/astro-mailform'
-    version: 0.7.3
+    version: 0.7.4
     peerDependencies:
       '@astrojs/mdx': ^2.0.0
       '@astrojs/tailwind': ^5.0.0
